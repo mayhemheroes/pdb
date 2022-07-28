@@ -1,0 +1,7 @@
+project: pdb
+target: pdb-parse
+
+cmds:
+  - cmd: /pdb_parse
+  - cmd: /pdb_parse_no_inst @@
+    libfuzzer: false
